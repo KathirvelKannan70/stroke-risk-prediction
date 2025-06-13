@@ -94,5 +94,5 @@ Target variable: `0` = No Heart Disease, `1` = Heart Disease
 
 ## 🙋‍♂️ Author
 
-Developed by [Your Name].  
+Developed by Kathirvel Kannan.  
 For educational and demonstration purposes.
