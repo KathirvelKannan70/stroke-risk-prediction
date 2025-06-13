@@ -1,25 +1,10 @@
 
-# ❤️ Heart Disease Prediction using Logistic Regression
+## Heart Disease Prediction using Logistic Regression**
 
 This project demonstrates how to build a machine learning model to predict the presence of heart disease using a logistic regression algorithm. The entire workflow — from data loading to prediction — is implemented within a single Jupyter Notebook.
 
 ---
-
-## 📁 Project Contents
-
-```
-heart-disease-prediction/
-│
-├── heart_disease_data.csv       # Dataset (UCI-based)
-├── heart_disease_prediction.ipynb  # Jupyter Notebook with model training and prediction
-└── README.md                    # Project documentation
-```
-
----
-
-## 🚀 How to Use
-
-### 1. ✅ Requirements
+### 1. Requirements
 
 Make sure Python is installed, then install the necessary libraries:
 
@@ -27,7 +12,7 @@ Make sure Python is installed, then install the necessary libraries:
 pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 
-### 2. 📓 Run the Notebook
+### 2. Run the Notebook
 
 Open the notebook with Jupyter:
 
@@ -40,12 +25,12 @@ Follow the notebook steps to:
 - Load and explore the dataset
 - Preprocess the data (handling missing values, encoding)
 - Train a **Logistic Regression** model
-- Evaluate performance with accuracy, precision, recall
+- Evaluate performance with accuracy
 - Test the model with custom input values
 
 ---
 
-## 🧪 Sample Prediction
+## Sample Prediction
 
 The notebook includes an example like:
 
@@ -62,7 +47,7 @@ else:
 
 ---
 
-## 📊 Dataset Features
+## Dataset Features
 
 The dataset includes 13 input features:
 
@@ -84,7 +69,7 @@ Target variable: `0` = No Heart Disease, `1` = Heart Disease
 
 ---
 
-## ✅ Model Summary
+## Model Summary
 
 - **Model Used**: Logistic Regression
 - **Evaluation Metrics**: Accuracy, Confusion Matrix, Precision, Recall
@@ -92,7 +77,7 @@ Target variable: `0` = No Heart Disease, `1` = Heart Disease
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
 Developed by Kathirvel Kannan.  
 For educational and demonstration purposes.
