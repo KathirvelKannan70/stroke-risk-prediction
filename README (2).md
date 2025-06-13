@@ -34,15 +34,23 @@ Follow the notebook steps to:
 
 The notebook includes an example like:
 
-```python
-input_data = (62, 0, 0, 140, 268, 0, 0, 160, 0, 3.6, 0, 2, 2)
-input_array = np.array(input_data).reshape(1, -1)
-prediction = model.predict(input_array)
+```
+input_data = (51,1,3,125,213,0,0,125,1,1.4,2,1,2)
+
+# Converting it into a numpy array
+input_data = np.asarray(input_data) 
+
+# Reshaping into requred input form
+input_data = input_data.reshape(1,-1) 
+
+# With the input I am predicting 
+prediction = model.predict(input_data)
+prediction 
 
 if prediction[0] == 0:
-    print("No Heart Disease")
-else:
-    print("Patient has Heart Disease")
+    print("Good News the patient does'nt have any heart disease")
+else: 
+    print("The Patient should visit the doctor")
 ```
 
 ---
